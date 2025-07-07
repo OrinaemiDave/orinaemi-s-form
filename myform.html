@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    form {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 30px;
+      width: 300px;
+      border-radius: 5px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 8px 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- User Login Form -->
+  <form>
+    <h3>User Login</h3>
+    <label>Username or Email:</label>
+    <input type="text" name="user_login" required>
+
+    <label>Password:</label>
+    <input type="password" name="user_password" required>
+
+    <button type="submit">Login</button>
+  </form>
+
+</body>
+</html>
